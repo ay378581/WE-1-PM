@@ -1,0 +1,23 @@
+package forloop;
+
+public class Cube {
+
+	public static void main(String[] args) {
+
+		int num = 153;
+
+		int temp = num;
+
+		int Finalans = 0;
+		while (num > 0) {
+			int a = num % 10;
+			int ans = 1;
+
+			for (int i = 1; i <= 3; i++)
+				ans *= a;
+
+			Finalans += ans;
+			num /= 10;
+		}
+	}
+}

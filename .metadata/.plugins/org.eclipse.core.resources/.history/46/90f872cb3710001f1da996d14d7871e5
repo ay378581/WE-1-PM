@@ -1,0 +1,14 @@
+package forloop;
+
+public class Cube {
+
+	public static void main(String[] args) {
+		
+		int num = 153;
+		
+		while(num > 0)
+		{
+			
+		}
+	}
+}
